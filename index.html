@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kartik Meher - Data Analyst</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartik Meher - Data Analyst</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- Landing Page -->
-  <section id="landing">
-    <div class="container">
-      <h1>Welcome to Kartik Meher's Website</h1>
-      <p>Data Analyst | Data Scientist</p>
-      <ul>
-        <li>Name: Kartik Meher</li>
-        <li>Phone: +91-9730138587</li>
-        <li>Email: kartik2577@gmail.com</li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/kartik-meher" target="_blank">kartik-meher</a></li>
-      </ul>
-      <a href="#projects" class="btn">View Projects</a>
-    </div>
-  </section>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#landing">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Warehouse Optimization Project</h3>
-        <p>Conducted a strategic ABC analysis, categorizing inventory by value and usage...</p>
-        <a href="#warehouse" class="btn">Read More</a>
-      </div>
-      <!-- Repeat similar structure for other projects -->
-    </div>
-  </section>
+    <!-- Landing Page -->
+    <section id="landing">
+        <h1>Kartik Meher</h1>
+        <p>Data Analyst</p>
+        <a href="mailto:kartik2577@gmail.com" class="btn">Contact Me</a>
+        <a href="www.linkedin.com/in/kartik-meher" class="btn">LinkedIn Profile</a>
+    </section>
 
-  <!-- Warehouse Project Page -->
-  <section id="warehouse" class="project-page">
-    <div class="container">
-      <h2>Warehouse Optimization Project</h2>
-      <p>Detailed description of the project...</p>
-      <!-- Add images related to the project -->
-      <div class="images">
-        <img src="path_to_image.jpg" alt="Warehouse Optimization">
-      </div>
-      <a href="#projects" class="btn">Back to Projects</a>
-    </div>
-  </section>
-
-  <!-- Skills Dashboard -->
-  <section id="skills">
-    <div class="container">
-      <h2>Skills Dashboard</h2>
-      <div class="skill">
-        <h3>Machine Learning</h3>
-        <div class="skill-level">
-          <div class="bar" style="width: 80%;"> <!-- Adjust width based on skill level -->
-            <span>80%</span>
-          </div>
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <img src="warehouse_optimization.jpg" alt="Warehouse Optimization">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Warehouse Optimization Project</h3>
+                    <p>Details about the project...</p>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- Repeat similar structure for other skills -->
-    </div>
-  </section>
+        <div class="project">
+            <img src="customer_complaints.jpg" alt="Complaint Investigation">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Complaint Investing Assistant</h3>
+                    <p>Details about the project...</p>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <img src="service_levels.jpg" alt="Service Level Tracking">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Tracking Customer Service Levels</h3>
+                    <p>Details about the project...</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>Contact: +91-9730138587 | Email: kartik2577@gmail.com</p>
-      <p>Follow me on LinkedIn: <a href="https://www.linkedin.com/in/kartik-meher" target="_blank">kartik-meher</a></p>
-      <p>&copy; 2024 Kartik Meher. All rights reserved.</p>
-    </div>
-  </footer>
+    <!-- Skills Dashboard -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <h3>Python</h3>
+            <div class="skill-level">
+                <div class="bar" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Machine Learning</h3>
+            <div class="skill-level">
+                <div class="bar" style="width: 85%;"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Data Visualization</h3>
+            <div class="skill-level">
+                <div class="bar" style="width: 80%;"></div>
+            </div>
+        </div>
+    </section>
 
-  <script src="scripts.js"></script> <!-- Link to your JavaScript file for interactivity -->
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Kartik Meher. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
